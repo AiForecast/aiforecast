@@ -6,11 +6,11 @@ export default function JsonThemeEditor({jsonobject} : {jsonobject: any}) {
   const { theme } = useTheme()
   if(theme === "light"){
     return (
-        <JsonEditor data={ jsonobject } className="mx-auto" theme={"githubLight"}/>
+        <JsonEditor data={ jsonobject } className="mx-auto" />
     )
   }else{
     return (
-        <JsonEditor data={ jsonobject } className="mx-auto" theme={"githubDark"}/>
+        <JsonEditor data={ jsonobject } className="mx-auto" />
     )
   }
 
