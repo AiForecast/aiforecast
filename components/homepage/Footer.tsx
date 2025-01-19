@@ -9,11 +9,7 @@ export const Footer = () => {
                 >
                     <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
                         <li>
-                            <p className="text-gray-500 transition hover:opacity-75"> © 2024 SurfSense.net </p>
-                        </li>
-
-                        <li>
-                            <Link href="/privacy" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </Link>
+                            <p className="text-gray-500 transition hover:opacity-75"> © 2025 aiforecast.co</p>
                         </li>
 
                         {/* <li>
@@ -62,7 +58,7 @@ export const Footer = () => {
 
                         <li>
                             <a
-                                href="https://x.com/mod_setter"
+                                href="https://x.com/Ai_Forecast_C"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-700 transition hover:opacity-75"
@@ -79,7 +75,7 @@ export const Footer = () => {
 
                         <li>
                             <a
-                                href="https://github.com/MODSetter/SurfSense"
+                                href="https://github.com/AiForecast"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="text-gray-700 transition hover:opacity-75"
