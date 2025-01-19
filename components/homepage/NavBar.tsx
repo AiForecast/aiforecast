@@ -80,9 +80,9 @@ function Navbar({ className }: { className?: string }) {
                 <div className="flex gap-2">
 
                     {
-                        !loggedin ? (<a href={"/login"}>
+                        !loggedin ? (<a href={"/whitepaper"}>
                             <button className="px-4 py-2 rounded-md border border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
-                                Log In
+                                WhitePaper
                             </button>
                         </a>) : (<>
                             <button onClick={() => logOut()} className="px-4 py-2 rounded-md border border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">

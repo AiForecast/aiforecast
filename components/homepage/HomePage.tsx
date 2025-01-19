@@ -10,36 +10,19 @@ import { Github } from "lucide-react";
 
 import { Badge } from "../badge";
 import FAQSection from './FAQSection';
+import VideoPlayer from './VideoPlayer';
 
 export function HomePage() {
     const containerRef = useRef<HTMLDivElement>(null);
-
     return (
         <>
             <AuroraBackground>
-                <motion.div
-                    initial={{
-                        y: 40,
-                        opacity: 0,
-                    }}
-                    animate={{
-                        y: 0,
-                        opacity: 1,
-                    }}
-                    transition={{
-                        ease: "easeOut",
-                        duration: 0.5,
-                    }}
-                    className="flex justify-center mt-20"
-                >
                     <Link
-                        href="https://github.com/0x2b3ef/aiforecast">
+                        href="https://github.com/AiForecast">
                         <Badge>
                             AiForecast will Released in 2025 Q1
                         </Badge>
                     </Link>
-
-                </motion.div>
 
                 <motion.div
                     transition={{ delay: 1 }}
@@ -67,13 +50,13 @@ export function HomePage() {
                 </p>
                 <div className="mb-10 mt-8 flex w-full flex-col items-center justify-center gap-4 px-8 sm:flex-row md:mb-20">
                     <Link
-                        href="/searchspace"
+                        href="./WhitePaper.pdf"
                         className="group relative z-20 flex h-10 w-full cursor-pointer items-center justify-center space-x-2 rounded-lg bg-black p-px px-4 py-2 text-center text-sm font-semibold leading-6 text-white no-underline transition duration-200 dark:bg-white dark:text-black sm:w-52"
                     >
-                        Get Started
+                        WhitePaper
                     </Link>
                     <Link
-                        href="https://github.com/0x2b3ef/aiforecast"
+                        href="https://github.com/AiForecast"
                         className="group relative z-20 flex h-10 w-full cursor-pointer items-center justify-center space-x-2 rounded-lg bg-white p-px px-4 py-2 text-sm font-semibold leading-6 text-black no-underline shadow-input transition duration-200 hover:-translate-y-0.5 dark:bg-neutral-800 dark:text-white sm:w-52"
                     >
                         <span>
@@ -83,6 +66,9 @@ export function HomePage() {
 
                     </Link>
                 </div>
+
+                <VideoPlayer />
+
             </AuroraBackground>
             <FAQSection />
 
