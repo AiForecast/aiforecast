@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 				url: "https://surfsense.net/og-image.png",
 				width: 1200,
 				height: 630,
-				alt: "AiForecast - A Personal NotebookLM and Perplexity-like AI Assistant for Everyone.",
+				alt: "AiForecast - A Personal Blockchain-Powered NotebookLM and Perplexity-like AI Assistant for Everyone.",
 			},
 		],
 	},
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		site: "https://aiforecast.io",
 		creator: "https://aiforecast.io",
-		title: "AiForecast - A Personal NotebookLM and Perplexity-like AI Assistant for Everyone.",
+		title: "AiForecast - A Personal Blockchain-Powered NotebookLM and Perplexity-like AI Assistant for Everyone.",
 		description:
 			"Have your own private NotebookLM and Perplexity with better integrations.",
 		images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 				url: "https://surfsense.net/og-image.png",
 				width: 1200,
 				height: 630,
-				alt: "AiForecast - A Personal NotebookLM and Perplexity-like AI Assistant for Everyone.",
+				alt: "AiForecast - A Personal Blockchain-Powered NotebookLM and Perplexity-like AI Assistant for Everyone.",
 			},
 		],
 	},
