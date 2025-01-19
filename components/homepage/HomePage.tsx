@@ -10,6 +10,7 @@ import { Github } from "lucide-react";
 
 import { Badge } from "../badge";
 import FAQSection from './FAQSection';
+import PricingSection from './PricingSection';
 import VideoPlayer from './VideoPlayer';
 
 export function HomePage() {
@@ -70,6 +71,8 @@ export function HomePage() {
                 <VideoPlayer />
 
             </AuroraBackground>
+            <PricingSection />
+
             <FAQSection />
 
         </>
